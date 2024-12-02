@@ -1,7 +1,11 @@
+import SliderCom from './components/SliderCom';
+import SlickCarousel from './SlickCarousel';
+
 const App = () => {
   return (
     <main>
-      <h2>Slider Starter</h2>
+      <SliderCom />
+      <SlickCarousel />
     </main>
   );
 };
